@@ -11,3 +11,8 @@ export class GuineaPigs extends React.Component {
     );
   }
 }
+
+// Stateless functional component
+GuineaPigs.propTypes = {
+  src: React.PropTypes.string.isRequired
+};
